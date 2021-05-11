@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthy"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.healthy.Splash"
+            android:label="Healthy Life">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.healthy.MainActivity"
+            android:label="Novelette Nelson"></activity>
+        <activity
+            android:name="com.example.healthy.Fragment2"
+            android:label="Fragment2"></activity>
+        <activity
+            android:name="com.example.healthy.Fragment1"
+            android:label="Fragment1"></activity>
+        <activity
+            android:name="com.example.healthy.Order"
+            android:label="Order"></activity>
+        <activity
+            android:name="com.example.healthy.Recipe"
+            android:label="Recipe"></activity>
+        <activity
+            android:name="com.example.healthy.UpdateOrder"
+            android:label="Update Recipe"></activity>
+        <activity
+            android:name="com.example.healthy.View_Recipe"
+            android:label="View Recipe"></activity>
+    </application>
+
+</manifest>
